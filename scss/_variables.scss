@@ -221,9 +221,9 @@ $line-height-sm:         1.5 !default;
 $border-width: 1px !default;
 $border-color: $gray-200 !default;
 
-$border-radius:          0rem !default;
-$border-radius-lg:       0rem !default;
-$border-radius-sm:       0rem !default;
+$border-radius:          0 !default;
+$border-radius-lg:       0 !default;
+$border-radius-sm:       0 !default;
 
 $component-active-color: $white !default;
 $component-active-bg:    theme-color("primary") !default;
@@ -243,7 +243,7 @@ $font-family-sans-serif: 'Roboto', sans-serif !default;
 $font-family-monospace:  'Roboto', regular !default;
 $font-family-base:       $font-family-sans-serif !default;
 
-$font-size-base: 0.875rem !default; // Assumes the browser default, typically `16px`
+$font-size-base: .875rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg:   1.25rem !default;
 $font-size-sm:   .875rem !default;
 
@@ -332,8 +332,8 @@ $table-inverse-color:           $body-bg !default;
 //
 // For each of Bootstrap's buttons, define text, background and border color.
 
-$input-btn-padding-y:       0.5rem !default; // 
-$input-btn-padding-x:       0.75rem !default; //
+$input-btn-padding-y:       .5rem !default; //
+$input-btn-padding-x:       .75rem !default; //
 $input-btn-line-height:     1.25 !default;
 
 $input-btn-padding-y-sm:    .25rem !default;
@@ -797,7 +797,7 @@ $figure-caption-color:     $gray-600 !default;
 // Breadcrumbs
 $breadcrumb-font-size:          14px !default;
 $breadcrumb-padding-y:          .3rem !default;
-$breadcrumb-padding-x:          0rem !default;
+$breadcrumb-padding-x:          0 !default;
 $breadcrumb-item-padding:       .5rem !default;
 
 $breadcrumb-margin-bottom:      1rem !default;
